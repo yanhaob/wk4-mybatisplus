@@ -20,13 +20,13 @@ Springboot& MyBatis-Plus helps to build a backend portal, requiring RESTful spec
 - **UPDATE(PUT) user info**
 - **DELETE user**
 
-As followed by the Fig.1-??? below.
+As followed by the Fig.1 below.
 
 <div style="text-align: center;">
     <img src="./img/crud1.png" alt="crud1" width="100%">
     <img src="./img/crud2.png" alt="crud2" width="100%">
     <img src="./img/crud3.png" alt="crud3" width="100%">
     <img src="./img/crud4.png" alt="crud4" width="100%">
-    <p style="margin: 0;">Fig.1 MyBatis-Plus</p>
+    <p style="margin: 0;">Fig.1 MyBatis-Plus CRUD</p>
 </div>
 

@@ -1,0 +1,24 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/mp
+    username: root
+    password: B@i13821820539
+    
+logging:
+  level:
+    root: warn
+    com.mp.dao: trace
+  pattern:
+    console: '%p%m%n'
+
+mybatis-plus:
+  mapper-locations:
+  - com/mp/mapper/*
+  global-config:
+    db-config:
+      id-type: uuid
+      field-strategy: ignored
+      table-prefix: mp_
+  type-aliases-package: com.mp.entity
+  configuration:
+    map-underscore-to-camel-case: true
